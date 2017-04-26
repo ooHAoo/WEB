@@ -1,0 +1,170 @@
+/***** By: Huda Al Dallal        *****
+ ***** Student Number: 130268162 *****/
+
+/********************* GENERAL *********************/
+html {
+	padding: 1.5em;
+	background: rgba(202,202,202,1.00); /*background color of the whole page*/
+}
+
+.red {
+	color: red;
+}
+
+ul {
+	list-style: none;
+}
+
+* {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/********************* BODY *********************/
+body {
+	width: 78%;
+	margin: auto;
+	border-radius: 10px;
+	border: 1px solid green;
+	box-shadow: 0px 0px 5px 5px #9f9f99;
+	background: white;
+	position: relative;
+}
+
+/********************* BODY/HEADER *********************/
+body header {
+	background: repeating-radial-gradient(circle farthest-corner at center center, #ff0000 0%, rgba(208,0,0,1.00) 100%);
+	color: white;
+	padding: 1em 1em 0 1em;
+	border-radius: 10px 10px 0 0;
+	margin: auto;
+}
+
+body header h1 {
+	display: inline;
+}
+
+body header h3 {
+	display: inline;
+}
+
+body div h2 {
+	text-shadow: 3px 3px 5px #cacaca;
+	padding: 0 1em 0 1em;
+}
+
+body div p {
+	padding: 0 1em 0 1.5em;
+}
+
+
+/********************* FORM/MORE *********************/
+form {
+	display: block;
+}
+
+
+form label {
+	display: inline-block;
+    width: 200px;
+    text-align: right;
+	padding: 0.55em;
+}
+
+
+#field1, #field2, #field3, #field4 {
+	background: rgba(244,244,244,1.00); 
+	margin: 1em;
+	padding-left: 0;
+	padding-right: 0;
+	border: none;
+}
+
+#field1 legend, #field2 legend, #field3 legend, #field4 legend { /*header for each field*/
+	background: rgba(224,224,224,1.00);
+	width: 100%;
+	font-weight: bold;
+	text-indent: 10px;
+	padding: 0;
+}
+
+fieldset > input, fieldset > textarea, fieldset > select {
+	width: 50%;
+	box-sizing: border-box;
+	box-shadow: 3px 3px 5px 1px #8a8a8a;
+	border-radius: 5px;
+	border-width: thin;
+	padding: 1px;
+	height: 1.75em;
+}
+
+
+/*********** FIELDSET1 - BASIC INFORMATION ***********/
+#field1 p  {
+	padding: 0;
+	margin: 0;
+    margin-left: 19.8em;
+	font-size: 11px;
+	max-width: 50%;
+}
+
+
+/*********** FIELDSET2 - EDUCATION ***********/
+#edstat {
+	width: 50%;
+	margin-left: 13.5em;
+	margin-top: 0.55em;
+	margin-bottom: 0.55em;
+	border: 0.5px solid gray;
+	background: white;
+	border-radius: 5px;
+	box-shadow: 3px 3px 3px 1px #b0b0b0;
+	padding: 0;
+}
+
+#edstat legend {
+	background: none;
+	font-weight: 400;
+	margin: 0;
+    padding: 0;
+    position: static;
+    display: inline-block;
+}
+
+#edstat ul  {
+	padding: 0;
+	width: 10em;
+	margin: 0.7em;
+}
+
+
+/*********** FIELDSET3 - WORK ***********/
+#field3 textarea {
+	vertical-align: top;
+    height: 5em;
+    resize: vertical;
+}
+
+
+/*********** FIELDSET4 - ATTACHMENTS ***********/
+#field4 input {
+	background: white;
+	border: 1px solid gray;
+}
+
+
+/*********** FIELDSET/DIV5 - SUBMIT ***********/
+#field5 {
+	padding: 2em;
+	width: 25%;
+	margin: auto;
+}
+
+#field5 input {
+	margin: 0.5em;
+	background: red;
+	color: white;
+	border-radius: 5px;
+	padding: 0.5em 1.7em;
+}
+
