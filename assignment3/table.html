@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+ <html>
+  <head>
+    <title>WEB222</title>
+    <meta charset="UTF-8" />
+	<link rel="stylesheet" href="css/normalize.css"/>
+	<link rel="stylesheet" href="css/lab3-theme.css"/>
+	<script src="js/table.js"></script>
+</head>
+<body>
+
+	<header>
+		<div class="center">
+			<h2>
+			     WEB222 - Assignment 3
+			</h2>
+		</div>
+	</header>
+	<nav>
+		<div class="center">
+		<ul>	
+			<li><a href="index.html">Home</a></li>
+			<li><a href="list.html">List</a></li>
+			<li><a href="table.html">Table</a></li>
+			<li><a href="image.html">Image</a></li>
+			<li><a href="audio.html">Audio</a></li>
+			<li><a href="video.html">Video</a></li>
+			<li><a href="seneca.html">Seneca</a></li>
+			<li><a href="honesty.html">Honesty</a></li>
+		</ul>
+		</div>
+	</nav>
+		
+	<section class="main center">
+	
+	
+	
+	<!-- Start your code here -->
+		<h2>HTML Tables</h2>
+		<h3>Table 1</h3>
+		<table border="1">
+			<caption><b>--- School Schedule ---</b></caption>
+			<tr>
+				<th colspan = "5"> WINTER 2017</th>
+			</tr>
+			<tr>
+				<th>DAY/TIME</th>
+				<th>8:00-9:45</th>
+				<th>9:50-11:35</th>
+				<th>11:40-1:25</th>
+				<th>1:30-3:15</th>
+			</tr>
+			<tr>
+					<th>MON</th>
+					<td>DBS 201 Lecture</td>
+					<td>WEB 222 Lab</td>
+					<td>OOP 244 Lab</td>
+					<td>- - - - -</td>
+				</tr>
+				<tr>
+					<th>TUES</th>
+					<td colspan="4"><b>- - - - - - - - - - - - - - - - - - - - - NO SCHOOL - - - - - - - - - - - - - - - - - - - - - - - -
+									</b></td>
+				</tr>
+				<tr>
+					<th>WED</th>
+					<td>DBS 201 Lab</td>
+					<td colspan="2">- - - - - - - - - - - - - - - BREAK - - - - - - - - - - - - -</td>
+					<td>WEB 222 Lecture</td>
+				</tr>
+				<tr>
+					<th>THURS</th>
+					<td>OOP 244 Lecture</td>
+					<td>- - - - - - - - - - BREAK - - - - - - - - - -</td>
+					<td>DCF 255 Lecture</td>
+					<td>- - - - -</td>
+				</tr>
+				<tr>
+					<th>FRI</th>
+					<td colspan="4"><b>- - - - - - - - - - - - - - - - - - - - - BREAK - - - - - - - - - - - - - - - - - - - - -
+									</b></td>
+				</tr>
+		</table><br/>
+
+<!-- SECOND TABLE -->
+	<h3>Table 2</h3>		
+	<table border="1">
+		<caption><b> ~ ~ Canadian Weather ~ ~ </b></caption>
+		<thead style="background-color:lightpink;">
+		<tr>
+			<th style="background-color:seagreen;">SEASONS</th>
+			<th>JAN</th>
+			<th>FEB</th>
+			<th>MAR</th>
+			<th>APR</th>
+			<th>MAY</th>
+			<th>JUN</th>
+			<th>JUL</th>
+			<th>AUG</th>
+			<th>SEP</th>
+			<th>OCT</th>
+			<th>NOV</th>
+			<th>DEC</th>	
+		</tr>
+		</thead>
+		<tbody style="background-color:lightyellow;">
+			<tr>
+				<td style="background-color:lightgreen;">CITIES</td> 
+				<td colspan="2">WINTER</td>
+				<td colspan="3">SPRING</td>
+				<td colspan="3">SUMMER</td>
+				<td colspan="3">FALLS</td>
+				<td>WINTER</td>
+			</tr>
+			<tr>
+				<td style="background-color:lightgreen;">St. John, NB</td>
+				<td colspan="2"> High -2°C<br/>Low -13°C</td>
+				<td colspan="3"> High 9°C<br/>Low -7°C</td>
+				<td colspan="3"> High 23°C<br/>Low 18°C</td>
+				<td colspan="3"> High 11°C<br/>Low 22°C</td>
+				<td> High 1°C<br/>Low -9°C</td>
+			</tr>
+			<tr>
+				<td style="background-color:lightgreen;">Vancouver, BC</td>
+				<td colspan="2"> High 9°C<br/>Low 3°C</td>
+				<td colspan="3"> High 19°C<br/>Low 12°C</td>
+				<td colspan="3"> High 23°C<br/>Low 15°C</td>
+				<td colspan="3"> High 19°C<br/>Low 12°C</td>
+				<td> High 5°C<br/>Low 1°C</td>
+			</tr>
+			<tr>
+				<td style="background-color:lightgreen;">Toronto, ON</td>
+				<td colspan="2"> High 0°C<br/>Low -7°C</td>
+				<td colspan="3"> High 18°C<br/>Low -2°C</td>
+				<td colspan="3"> High 27°C<br/>Low 15°C</td>	
+				<td colspan="3"> High 21°C<br/>Low 2°C</td>
+				<td> High 2°C<br/>Low -2°C</td>				
+			</tr>
+		</tbody>
+		<tfoot style="background-color:lightblue;">
+			<tr>
+				<td colspan="13">*Weather conditions may change entirely. It's Canada after all, eh?</td>
+			</tr>
+		</tfoot>
+	</table><br/>
+
+<!-- THIRD TABLE -->
+			<h3>Table 3<br/>Using data stored in the array</h3>
+				<table id="outputTable" border="1">
+					<caption><b> *** Contact information! ***</b></caption>
+					<tr>
+						<th>First Name</th>
+						<th>Last Name</th>
+						<th>Age</th>
+					<th>	Email</th>
+					</tr>	
+				</table><br/>
+				<script data-scr="js/table.js"></script>
+
+	<!-- End your code here  -->
+	
+	</section>
+	<footer>
+	  <div class="center">
+		  &copy; 2017 Huda Al Dallal
+	  </div>
+	</footer>
+</body>
