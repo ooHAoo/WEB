@@ -1,16 +1,4 @@
-/**********************************************************************************  
- * WEB222 –Assignment02
- * *  I declare that this assignment is my own work in accordance with Seneca  Academic Policy.  
-*  Nopart of this assignment has been copied manually or electronically from any other source
-*  (including web sites) or 
-distributed to other students.
-* 
-*Name: Huda Al Dallal
-Student ID: 130268162
-Date: Feb 18th/2017
-*********************************************************************************/ 
-
- /**********************************
+/**********************************
  *          ALL DATA              *
  *  write your CustomerDB Object  *
  *      BELOW this Object         *
