@@ -1,6 +1,4 @@
 
-//BY: HUDA AL DALLAL
-//STUDENT NUMBER 130268162
 
 // set a global httpRequest object
 
