@@ -1,0 +1,121 @@
+
+/*********************************************************************************
+*
+* WEB222 – Assignment #4b
+*
+* I declare that this assignment is my own work in accordance with Seneca
+* Academic Policy. No part of this assignment has been copied manually or
+* electronically from any other source (including web sites) or distributed to
+* other students.
+*
+* Name: Huda Al Dallal Student ID: 130268162 Date: March 17/2017
+*
+********************************************************************************/
+
+
+/* select all elements with class main-container and change the width and margin*/
+.main-container{
+    max-width: 960px;
+    margin: 0px auto; 
+}
+
+
+/*Selecting all nav elements that is the child of class main-container and change its size and position*/
+.main-container nav{
+    width: 30%;
+    float: left;
+}
+
+/*Selecting all of the main class that is a child of the main-container and change its size and position*/
+.main-container .main{
+    width: 70%;
+    float: right;
+}
+
+
+/*Select the header element that is a child of the main-container class and change its position relative to the border and change the 
+look of the border along with the margin*/
+.main-container header{
+    padding: 10px;
+    background-color: #eeeeee;
+    border-bottom: 1px solid #cccccc;
+    margin-bottom: 30px;
+}
+
+/*Selecting h1 element that is nested within header of the class main-container and change its position, size, font-size, and alignment of text.*/
+.main-container header h1{
+    width: 70%;
+    font-size: 24px;
+    float: right;
+    text-align: right;
+    margin-top: 10px;
+}
+
+/*Selecting the footer that is the child of the class main-container and clear the elements surrounding the footer,
+ background color, the border and font size*/
+.main-container footer{
+    clear: both;
+    padding: 20px 10px;
+    background-color: #eeeeee;
+    border-top: 1px solid #cccccc;
+    font-size: 13px;
+}
+
+/*selecting the unique id logo and change its size, font size and make the text bolded*/
+#logo{
+
+    width: 30%;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+/*Selecting the image that is nested within id logo and change the size and align it in the center*/
+#logo img{
+    width: 94px;
+    vertical-align: middle;
+}
+
+/*selecting the ul element that is listed in nav and remove the bullets to show none*/
+nav ul{
+    list-style-type: none;
+}
+
+/*selecting the element a that is nested within ul inside nav to display the box of the liste as a block and remove the underlines*/
+nav ul a{
+    display: block;
+    text-decoration: none;
+    padding: 5px 5px;
+}
+
+/*selecting class province nested in div to chnage its size and position. Also, setting height and margin*/
+div.province{
+
+    width: 30%;
+    float: left;
+    margin: 8px;
+    height: 310px;
+}
+
+/*Seleting class description that is nessted inside the province class in div element to display the scroll bar if needed*/
+div.province .description{
+    max-height: 165px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin: 8px;
+}
+/*selecting element a nested in province class of dic element to display the list as a block and align in in the center and change its background-color
+and its text color and remove the underlines*/
+div.province a{
+    display: block;
+    text-align: center;
+    background-color: #555555;
+    color: #eeeeee;
+    text-decoration: none;
+    padding: 5px;
+}
+
+/*Setting the class flag in img element and set width to 100%*/
+img.flag{
+    width: 100%;
+}

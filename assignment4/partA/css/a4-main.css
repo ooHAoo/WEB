@@ -1,0 +1,79 @@
+/********************************************************************************* 
+*
+* WEB222 – Assignment #4a
+*
+* I declare that this assignment is my own work in accordance with Seneca 
+* Academic Policy. No part of this assignment has been copied manually or 
+* electronically from any other source (including web sites) or distributed to 
+* other students. 
+* 
+* Name: Huda Al Dallal Student ID: 130268162 Date: March 19/2017 
+* 
+********************************************************************************/
+
+
+/* Place all of your CSS Code in this file */
+
+body{
+    color: black;
+}
+
+nav, footer{
+    background-color: #FF80C1;
+    color:white;
+}
+
+nav ul li a, nav ul li span, footer.center{
+    color: white;
+}
+
+header{
+    background-color: #FFB3DA;
+    padding: 5px 25px;
+
+}
+
+header h1.app-title{
+    font-family: 'Gloria Hallelujah', cursive, Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+    color: #484848;
+    text-shadow: 1px 1px 1px black;
+
+}
+
+div.main-table-container{
+    max-height: 450px;
+    overflow-y: scroll;
+    border: 5px solid #282828;
+    background-color: #ff66a3;
+    background-image: url(https://gogocakes.com/media/catalog/product/cache/1/small_image/400x/040ec09b1e35df139433887a97daa66f/p/a/paw_3.png);
+
+}
+
+
+table.main-table-top th{
+    border: 1px solid black;
+    font-size: 10pt;
+    color: black;
+    background-color: #ff6aa3;
+    text-align: left;
+    padding: 5px 15px;
+}
+
+
+div.main-table-container table.main-table td{
+
+    border: 2px solid #282828;
+    font-size: 10pt;  
+    font-weight: 900;
+    padding: 3px 10px;
+    color: black;
+    text-shadow: 1px 1px 1px white;
+}
+
+
+table.main-table p span{
+    font-weight: bold;
+    font-style: italic;
+}
