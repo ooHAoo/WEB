@@ -1,19 +1,5 @@
 
-/************************************************************************
-**********  WEB222 –Assignment01
-*  I declare that this assignment is my own work in accordance with Seneca  Academic Policy.  No part of this
-*  assignment has been copied manually or electronically from any other source (including web sites) or 
-*  distributed to other students.
-* 
-*  Name: Huda Al Dallal Student ID: 130268162 Date: February 1st/2017
-*********************************************************************************/ 
-
-/******************************************
-*    grader(mark)
-*
-*   Purpose:  to display a letter grade for each range of marks using if-else statement
-depending on the conditions.
-******************************************/
+/***** grader(mark) *****/
 var grader = function(mark){
  
   var finalMark;
@@ -31,11 +17,7 @@ var grader = function(mark){
   return finalMark;
 }
 
-/******************************************
-*    showMultiples(num, numMultiples)
-*
-*   Purpose:  to show table based on given parameters in a specified range using for loop.
-******************************************/
+/***** showMultiples(num, numMultiples) *****/
 function showMultiples(num, numMultiples){
  
   var stringMultiples = " ";
@@ -50,12 +32,7 @@ function showMultiples(num, numMultiples){
   return stringMultiples;
 }
 
-/******************************************
-*    largeNum(num1, num2)
-*
-*   Purpose:  to determine which is the larger number and to distinguish non-numbers input
-using if-else and isNan function.
-******************************************/
+/**** largeNum(num1, num2) *******/
 var largerNum = function(num1, num2){
  
   var returnValue;
@@ -73,12 +50,7 @@ var largerNum = function(num1, num2){
 }
 
 
-/******************************************
-*    temComvert(temperature, convert)
-*
-*   Purpose:  to convert the temperatures between Celcius versus Farenhite.
-Using if-else statement and toFixed function to fix to one decimal point. 
-******************************************/
+/****** temComvert(temperature, convert) ******/
 function tempConvert (temperature, convert){
  
   var temConvert;
@@ -95,12 +67,7 @@ function tempConvert (temperature, convert){
 }
 
 
-/******************************************
-*    evenNumbers(minNumber, maxNumber)
-*
-*   Purpose:  to display a range of numbers within two provided numbers 
-but only even numbers are displayed Done using loop and if statement.
-******************************************/
+/********** evenNumbers(minNumber, maxNumber) *****************/
 
 var evenNumbers = function (minNumber, maxNumber){
  
@@ -124,12 +91,7 @@ var evenNumbers = function (minNumber, maxNumber){
 }
 
 
-/******************************************
-*    passingAverage( )
-*
-*   Purpose:  to determine whether the average of provided range of numbers are higher or 
-lower than the specific requirement using boolean.
-******************************************/
+/***********  passingAverage( ) ***********/
 var passingAverage = function (){
  
 var returnValue;
@@ -154,12 +116,7 @@ var returnValue;
 }
 
 
-/******************************************
-*    counter( )
-*
-*   Purpose:  using the outer function to return the inner function that will display 
-a number starting from 1 and will increment by one everytime it is invoked.
-******************************************/
+/******* counter( ) *********/
 function counter() {
   
   var x = 0;
